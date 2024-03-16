@@ -1,0 +1,14 @@
+### Obtener persons
+GET https://fullstackopennode.fly.dev/api/persons
+
+### Agregar person
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name":"Arfhel v Ballard",
+  "number":"25-55-892387"
+}
+
+#### Borrar 
+DELETE http://localhost:3001/api/persons/3
