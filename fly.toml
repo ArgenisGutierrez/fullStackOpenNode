@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for fullstackopennode on 2024-03-15T23:07:58-06:00
+# fly.toml app configuration file generated for fullstackopennode on 2024-03-16T12:57:48-06:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -9,7 +9,7 @@ primary_region = 'gdl'
 [build]
 
 [env]
-  PORT="3000"
+  PORT = "3000"
 
 [http_service]
   internal_port = 3000

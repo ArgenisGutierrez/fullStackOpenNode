@@ -2,7 +2,7 @@
 GET https://fullstackopennode.fly.dev/api/persons
 
 ### Agregar person
-POST http://localhost:3001/api/persons
+POST https://fullstackopennode.fly.dev/api/persons
 Content-Type: application/json
 
 {
@@ -11,4 +11,4 @@ Content-Type: application/json
 }
 
 #### Borrar 
-DELETE http://localhost:3001/api/persons/3
+DELETE https://fullstackopennode.fly.dev/api/persons/9464
