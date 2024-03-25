@@ -12,3 +12,31 @@ Content-Type: application/json
 
 #### Borrar 
 DELETE https://fullstackopennode.fly.dev/api/persons/9464
+
+### Local
+### Obtener persons
+GET http://localhost:3000/api/persons
+
+### buscar una persona
+GET http://localhost:3000/api/persons/65f8ca49ef17642d07738a73
+
+### Agregar person local
+POST http://localhost:3000/api/persons
+Content-Type: application/json
+
+{
+  "name":"Engrias IV Alsya",
+  "number":"44-23-971278"
+}
+
+### Edit person
+PATCH http://localhost:3000/api/persons/65f8ca49ef17642d07738a73
+Content-Type: application/json
+
+{
+  "name": "Sinegra II Fhaust",
+  "number": "33-77-971357"
+}
+
+### Borrar en local
+DELETE http://localhost:3000/api/persons/65f8bb4e3b0c81376e1df224
